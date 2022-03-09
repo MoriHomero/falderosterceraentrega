@@ -791,7 +791,11 @@ i{
 /* RESPONSIVE TABLET */
 /* RESPONSIVE TABLET 600 767 */
 
-@media only screen and (min-width:600px) and (max-width:767px){
+@media only screen and (min-width:600px) and (max-width:1366px){
+
+    *{
+        all: 80%;
+    }
 
     header h1{
         width: 100%;
